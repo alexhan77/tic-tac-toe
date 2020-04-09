@@ -139,6 +139,10 @@ function checkVerticals(player) {
     return false;
   }
 
+
+  const playTurn = (e) => {
+      board.addEventListener('click', playTurn);
+  }
   // FUNCTIONS FOR THE "START GAME" & "RESET"
   // 1. "Start Game" - 
 
